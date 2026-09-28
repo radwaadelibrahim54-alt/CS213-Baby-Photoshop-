@@ -2,19 +2,19 @@
 #include <iostream>
 using namespace std;
 
-void Grayscale(Image& luffy)
+void Grayscale(Image& mario)
 {
-    for (int i = 0; i < luffy.width; i++)
+    for (int i = 0; i < mario.width; i++)
     {
-        for (int j = 0; j < luffy.height; j++)
+        for (int j = 0; j < mario.height; j++)
         {
-            int gray = 0.299 * luffy(i, j, 0)
-                     + 0.587 * luffy(i, j, 1)
-                     + 0.114 * luffy(i, j, 2);
+            int gray = 0.299 * mario(i, j, 0)
+                     + 0.587 * mario(i, j, 1)
+                     + 0.114 * mario(i, j, 2);
 
-            luffy(i, j, 0) = gray;
-            luffy(i, j, 1) = gray;
-            luffy(i, j, 2) = gray;
+            mario(i, j, 0) = gray;
+            mario(i, j, 1) = gray;
+            mario(i, j, 2) = gray;
         }
     }
 }
@@ -22,7 +22,7 @@ void Grayscale(Image& luffy)
 
 int main()
 {
-    Mat image = imread("image.jpg");
+    Mat image = imread("mario.jpg");
 
     if (image.empty())
     {
