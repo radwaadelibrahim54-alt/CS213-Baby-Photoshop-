@@ -20,10 +20,10 @@ Baby Photoshop is a C++ console app that applies 16 different image processing f
    - Filters: Black & White, Rotate, Detect Edges, TV
 
 3. **Radwa Adel Ibrahim Soliman** (ID: 20251147)
-   - Filters: Invert, Darken & Lighten, Crop, Purple
+   - Filters: Invert, Darken & Lighten, Crop, Purple , Image Skewing ,Oil Painting
 
 4. **Malak Mustafa Megahed Mortada** (ID: 20251421)
-   - Filters: Frame, Resize, Blur, Infrared
+   - Filters: Frame, Resize, Blur, Infrared , Image Skewing ,Oil Painting 
 
 ---
 
