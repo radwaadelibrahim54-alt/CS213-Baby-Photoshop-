@@ -7,7 +7,7 @@
 ---
 
 ## 📝 Overview
-Baby Photoshop is a C++ console app that applies 16 different image processing filters.
+Baby Photoshop is a C++ console app that applies 18 different image processing filters.
 
 ---
 
